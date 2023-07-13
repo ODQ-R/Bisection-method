@@ -1,1 +1,1 @@
-## Bisection-method
+## Bisection method
