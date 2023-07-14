@@ -38,7 +38,7 @@ use basic_types
 
 	xl = 0.5_real8		! Lower interval
 	xu = 1.0_real8		! Upper interval
-	tol = 1e-4			! Desired tolerance for the root
+	tol = 1e-4		! Desired tolerance for the root
 	maxIterations = 100	! Maximum number of iterations
 
 	! Bisection method
@@ -59,7 +59,7 @@ use basic_types
 		! Check convergence
         if (abs(f(xr)) < tol) then
             exit
-		end if
+	end if
 	
 	end do
 
